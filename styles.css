@@ -1,0 +1,35 @@
+.reminder {
+    position: relative;
+}
+.btn{
+    padding: 10px;
+    border:1px solid navy;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+.suggestions-list {
+    position: relative;
+    top: 45px;
+    left: 30px;
+    list-style-type: decimal;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: aquamarine;
+}
+
+.suggestions-list .suggestion {
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 5px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
